@@ -1,7 +1,4 @@
-
-name: argent_recovery
-description: MVP delivery app
-publish_to: 'none'
+name: argent_live_system
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -9,6 +6,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+  google_maps_flutter: ^2.5.0
 
 flutter:
   uses-material-design: true
